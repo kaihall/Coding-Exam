@@ -625,14 +625,23 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.XR.Cardboard">
+      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -643,29 +652,14 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.XR.Cardboard">
-      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
@@ -676,8 +670,14 @@
     <Reference Include="Google.XR.Cardboard.Editor">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
