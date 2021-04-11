@@ -1,10 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Closeinator
+    - Countinator
+    - Duplicatorinator
     - FloatHorizontal
     - FloatVertical
     - GazeOverEvent
     - MouseCameraControl
+    - SFXPlayer
+    - Sendoffinator
     - SetMaterial
     - SwitchScreen
     - SwitchToApple
@@ -28,6 +33,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
   sceneClasses:
     Assets/Scenes/GameOver.unity:
     - Class: 1
@@ -55,11 +62,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12662}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 13214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -97,36 +104,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 11954}
+      Script: {instanceID: 11760}
     - Class: 114
-      Script: {instanceID: 12216}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12662}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 12676}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 13150}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 12960}
+    - Class: 114
+      Script: {instanceID: 13110}
+    - Class: 114
+      Script: {instanceID: 13214}
+    - Class: 114
+      Script: {instanceID: 13304}
+    - Class: 114
+      Script: {instanceID: 13354}
     - Class: 114
       Script: {instanceID: 13404}
     - Class: 114
-      Script: {instanceID: 13494}
-    - Class: 114
-      Script: {instanceID: 13544}
-    - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 18320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -160,24 +175,42 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11954}
+      Script: {instanceID: 11760}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 12662}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 12940}
+    - Class: 114
+      Script: {instanceID: 13214}
+    - Class: 114
+      Script: {instanceID: 15936}
+    - Class: 114
+      Script: {instanceID: 16132}
+    - Class: 114
+      Script: {instanceID: 16174}
+    - Class: 114
+      Script: {instanceID: 16180}
+    - Class: 114
+      Script: {instanceID: 18320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -583,7 +616,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: f87790242a4d485ef653ffc946b5d9e0
+      Hash: fb6ff03385eb57fe1ce2c993a5274178
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SwitchToApple
@@ -667,7 +700,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 686cebd4ec4cc4ff1d18dda00ef0304e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SwitchScreen
@@ -749,9 +782,39 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FloatVertical
+  - hash:
+      serializedVersion: 2
+      Hash: a54547a75f68f4f4134c4a77bd115f43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Duplicatorinator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Sendoffinator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Countinator
+  - hash:
+      serializedVersion: 2
+      Hash: c073474c34d43e51bbaacf69e5ecc306
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Closeinator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SFXPlayer
   platform: 13
   scenePathNames:
   - Assets/Scenes/Scene1.unity
   - Assets/Scenes/GameOver.unity
   - Assets/Scenes/Scene2.unity
-  playerPath: C:/Users/kaion/OneDrive/Documents/GitHub/Coding Exam/CodingExam.apk
+  playerPath: C:/Users/kaion/OneDrive/Desktop/codingexam.apk

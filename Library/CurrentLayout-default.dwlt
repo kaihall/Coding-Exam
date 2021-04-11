@@ -96,7 +96,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 121
+  controlID: 102
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 40
+  controlID: 34
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,8 +266,8 @@ MonoBehaviour:
     y: 486
     width: 1210
     height: 461
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -304,7 +304,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 84ebffff9eebffffc8ebffffd4ebffffe0ebffff64edffff7eedffff60eeffff68eeffff70eeffff92f2ffffb0f2ffffcaf2ffff
+      m_ExpandedIDs: eea6ffff08a7fffff8a7ffff00a8ffff08a8ffffcca9ffffd4abffff92ebffff32efffffd0efffff86f0ffffeaf0ffff04f1ffff2af1ffff32f1ffff3af1ffff7af2ffff94f2ffffbaf2ffffc2f2ffffcaf2ffff76f3ffff90f3ffff72f4ffff7af4ffff82f4fffff8f5ffff143e0000da4b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -405,19 +405,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins/Android
+    - Assets/Prefabs
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\kaion\OneDrive\Documents\GitHub\Coding Exam
+  m_LastProjectPath: C:\Users\kaion\Documents\GitHub\AI\Coding-Exam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d8330000
     m_LastClickedID: 13272
-    m_ExpandedIDs: 00000000c435000076370000783700007a3700007c3700007e37000080370000823700008437000086370000883700008a3700008c3700008e370000903700009237000094370000
+    m_ExpandedIDs: 0000000082350000ca360000cc360000ce360000d0360000d2360000d4360000d6360000d8360000da360000dc360000de360000e0360000e2360000e4360000e6360000e8360000ea360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000c435000076370000783700007c3700007e37000080370000823700008437000086370000883700008a3700008c3700008e370000903700009237000094370000b8370000e6380000
+    m_ExpandedIDs: ffffffff0000000082350000ca360000cc360000ce360000d0360000d2360000d4360000d6360000d8360000da360000dc360000de360000e0360000e2360000e4360000e6360000ea36000042470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -629,9 +629,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.86492896, y: -4.425269, z: 4.527115}
+    m_Target: {x: -9.512922, y: 1.1554086, z: 10.12159}
     speed: 2
-    m_Value: {x: 0.86492896, y: -4.425269, z: 4.527115}
+    m_Value: {x: -9.512922, y: 1.1554086, z: 10.12159}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -677,13 +677,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.37759557, y: -0.021667596, z: 0.00883811, w: -0.9256758}
+    m_Target: {x: -0.10783408, y: -0.0694367, z: 0.0075499723, w: -0.99171364}
     speed: 2
-    m_Value: {x: -0.37759525, y: -0.021667577, z: 0.008838102, w: -0.92567503}
+    m_Value: {x: -0.10783394, y: -0.06943661, z: 0.0075499625, w: -0.99171233}
   m_Size:
-    m_Target: 5.759536
+    m_Target: 8.313858
     speed: 2
-    m_Value: 5.759536
+    m_Value: 8.313858
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -5,10 +5,12 @@ using UnityEngine;
 public class SwitchToApple : MonoBehaviour
 {
     public GameObject apple;
+	public SFXPlayer soundPlayer;
 
     public void Switch()
     {
-        apple.SetActive(true);
+        soundPlayer.PlaySound("Pop");
+		apple.SetActive(true);
         gameObject.SetActive(false);
     }
 }

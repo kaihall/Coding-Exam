@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SwitchScreen : MonoBehaviour
 {
-    public void SwitchScene()
+    public SFXPlayer soundPlayer;
+	
+	public void SwitchScene()
     {
-        SceneManager.LoadScene("Scene2");
+        soundPlayer.PlaySound("Woosh");
+		SceneManager.LoadScene("Scene2");
     }
 }
